@@ -1,5 +1,5 @@
 
-          * {
+            * {
                 font-family: 'Times New Roman';
                 box-sizing: border-box;
                 margin: auto;
@@ -30,49 +30,41 @@
                 align-items: center;
                 justify-content: space-evenly; 
             }
-              nav:nth-child(1) a {
-            font-size: 1.1em;
-            text-decoration: none;
-            color: aliceblue;
-            transition: .5s;
+            nav:nth-child(1) a {
+                font-size: 1.1em;
+                text-decoration: none;
+                color: aliceblue;
+                transition: .5s;
             }
             nav:nth-child(1) a div {
-            width: 0;
-            height: 2px;
-            background: crimson;
-            transition: .5s;
+                width: 0;
+                height: 2px;
+                background: crimson;
+                transition: .5s;
             }
-             nav:nth-child(1) a:hover {
-            color: crimson;
+            nav:nth-child(1) a:hover {
+                color: crimson;
             }
             nav:nth-child(1) a:hover div {
-            width: 100%;
+                width: 100%;
             }
             a {
                 text-decoration:none;
             }
             
-            .r-con{
+            .r-con {
                 border: 1px double black;
                 height: 70px;
                 width:auto;
                 border-radius: 5px;
-                
-                
             }
-            
-            }
-            .text-segment{
+            .text-segment {
                 margin: 10px;
             }
-            
-            .comment{
-                
-                
+            .comment {   
                 border-top: solid 0.5px;
             }
-            
-            h3{
+            h3 {
                 padding: -2px;
                 margin: -1px;
             }
